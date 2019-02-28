@@ -6,20 +6,20 @@ This course covers from the basics of image processing with OpenCV to convolutio
 <br>
 <br>
 
-> Image Preprocessing
+> Section 1. Image Preprocessing
 
-  * 1. [Masking](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/02-Image-Processing/01-masking.ipynb)
-  * 2. [Thresholding](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/02-Image-Processing/02-Thresholding.ipynb)
-  * 3. [Blurring and Smoothing](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/02-Image-Processing/03-Blurring-and-Smoothing.ipynb)
-  * 4. [Morphological Operation](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/02-Image-Processing/04-Morphological-Operators.ipynb)
-  * 5. [Gradients](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/02-Image-Processing/05-Gradients.ipynb)
-  * 6. [Histograms](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/02-Image-Processing/06-Histograms.ipynb)
+  * [Masking](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/02-Image-Processing/01-masking.ipynb)
+  * [Thresholding](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/02-Image-Processing/02-Thresholding.ipynb)
+  * [Blurring and Smoothing](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/02-Image-Processing/03-Blurring-and-Smoothing.ipynb)
+  * [Morphological Operation](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/02-Image-Processing/04-Morphological-Operators.ipynb)
+  * [Gradients](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/02-Image-Processing/05-Gradients.ipynb)
+  * [Histograms](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/02-Image-Processing/06-Histograms.ipynb)
 
 
-> Object Detection
+> Section 2. Object Detection
 
-  * 1. [Template Matching](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/04-Object-Detection/00-Template-Matching.ipynb)
-  * 2. [Corner Detection](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/04-Object-Detection/01-Corner-Detection.ipynb)
-  * 3. [Edge Detection](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/04-Object-Detection/02-Edge-Detection.ipynb)
-  * 4. [Grid Detection](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/04-Object-Detection/03-Grid-Detection.ipynb)
-  * 5. [Contour Detection](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/04-Object-Detection/04-Contour-Detection.ipynb)
+  * [Template Matching](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/04-Object-Detection/00-Template-Matching.ipynb)
+  * [Corner Detection](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/04-Object-Detection/01-Corner-Detection.ipynb)
+  * [Edge Detection](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/04-Object-Detection/02-Edge-Detection.ipynb)
+  * [Grid Detection](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/04-Object-Detection/03-Grid-Detection.ipynb)
+  * [Contour Detection](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/04-Object-Detection/04-Contour-Detection.ipynb)
