@@ -23,3 +23,13 @@ This course covers from the basics of image processing with OpenCV to convolutio
   * [Edge Detection](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/04-Object-Detection/02-Edge-Detection.ipynb)
   * [Grid Detection](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/04-Object-Detection/03-Grid-Detection.ipynb)
   * [Contour Detection](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/04-Object-Detection/04-Contour-Detection.ipynb)
+
+
+> Section 3. Object Tracking
+
+  * [Optical Flow](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/05-Object-Tracking/00-Optical-Flow.ipynb)
+  * [Mean Shift Tracking](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/05-Object-Tracking/01-MeanShift-Tracking.ipynb)
+  * [Cam Shift Tracking](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/05-Object-Tracking/02-CamShift-Tracking.ipynb)
+  * [Tracking APIs](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/05-Object-Tracking/03-Tracking-APIs.ipynb)
+
+  

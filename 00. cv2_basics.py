@@ -116,9 +116,11 @@ cv2.bilateralfilter(img, 9, 75, 75)
 
 
 ############################## Morphological Operator 
-# erosion (eroding away the boundary)
 kernel = np.ones((5, 5), np.uint8)
+
+# erosion (eroding away the boundary)
 img_2 = cv2.erode(img, kernel, iterations = 3)
+plt.imshow(img_2)
 
 # opening (removing background noise)
 img_2 = cv2.morphologyEx(img, cv2.MORPH_OPEN, kernel)
@@ -194,11 +196,22 @@ ex_contours = np.zeros(image.shape)
 for i in range(len(contours)):
     if hierarchy[0][i][3] == -1:   
         # draw the external contours
-        cv2.drawContours(ex_contours, contours, i, 255, -1)
+        cv2.drawContours(ex_contours, contours, i, (255, 0, 0), -1)
     elif:
         # Draw the internal contours
-        cv2.drawContours(in_contours, contours, i, 255, -1)
+        cv2.drawContours(in_contours, contours, i, (255, 0, 0), -1)
 
 plt.imshow(in_contours)
 
+
+
+# Haar Cascades 
+cascade = cv2.CascadeClassifier(filepath)
+
+def detect(img):
+    img_2 = img.copy()
+    rects = cascade.detectMultiScale(img_2, scaleFactor = 1.2, minNeighbors = 3)
+    for (x, y, w, h) in rects:
+        cv2.rectangle(img_2, (x, y), (x+w, y+h), (255, 0, 0), 3)
+    return img_2
 
