@@ -4,10 +4,11 @@
 This course covers from the basics of image processing with OpenCV to convolutional neural network, object detection and object tracking.
 
 <br>
-<br>
 
   * [Basic Codes](https://github.com/jjone36/Udemy_cv2/blob/master/00.%20cv2_basics.py)
   * [Video Codes](https://github.com/jjone36/Udemy_cv2/blob/master/00.%20cv2_window_basics.ipynb)
+
+<br>
 
 > Section 1. Image Preprocessing
 
@@ -26,7 +27,7 @@ This course covers from the basics of image processing with OpenCV to convolutio
   * [Edge Detection](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/04-Object-Detection/02-Edge-Detection.ipynb)
   * [Grid Detection](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/04-Object-Detection/03-Grid-Detection.ipynb)
   * [Contour Detection](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/04-Object-Detection/04-Contour-Detection.ipynb)
-  * [Assignment](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/04-Object-Detection/09-Detection-Assessment.ipynb) : Car plate detection and blurring  
+  * [Assignment](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/04-Object-Detection/09-Detection-Assessment.ipynb) : detection car plate and blurring  
 
 
 > Section 3. Object Tracking
@@ -35,3 +36,8 @@ This course covers from the basics of image processing with OpenCV to convolutio
   * [Mean Shift Tracking](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/05-Object-Tracking/01-MeanShift-Tracking.ipynb)
   * [Cam Shift Tracking](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/05-Object-Tracking/02-CamShift-Tracking.ipynb)
   * [Tracking APIs](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/05-Object-Tracking/03-Tracking-APIs.ipynb)
+
+> section 4. Deep Learning
+
+  * [YOLO v.3](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/06-YOLOv3/06-YOLO-Object-Detection.ipynb)
+  * [Capstone](https://github.com/jjone36/Udemy_cv2/blob/master/CourseNote/Finger_Count.ipynb) : Finger detection and counting 
