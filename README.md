@@ -1,12 +1,8 @@
-# Python for Computer Vision with OpenCV and Deep Learning
-*: This repo contains the materials for [the Computer Vision Course](https://www.udemy.com/python-for-computer-vision-with-opencv-and-deep-learning/) and [the Advanced class](https://www.udemy.com/advanced-computer-vision/) on Udemy*
+# Computer Vision with Deep Learning and OpenCV
+*: This repo contains all the materials for [the Computer Vision Course](https://www.udemy.com/python-for-computer-vision-with-opencv-and-deep-learning/) on Udemy and some of my additional learning*
 
-This course covers from the basics of image processing with OpenCV to convolutional neural network, object detection and object tracking.
+from the basics of image processing with OpenCV to the advanced convolutional neural network, and object detection.
 
-<br>
-
-  * [Basic Codes](https://github.com/jjone36/Udemy_cv2/blob/master/00.%20cv2_basics.py)
-  * [Video Codes](https://github.com/jjone36/Udemy_cv2/blob/master/00.%20cv2_window_basics.ipynb)
 
 <br>
 

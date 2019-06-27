@@ -1,4 +1,6 @@
-
+# Building a very fundamental layer of the ResNet
+# making a class for convolutional layers and batch normalization
+# and building a convolution block
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -51,13 +53,12 @@ class BNLayer:
         self.gamma = tf.Variable(np.zeros(D, dtype = np.float32))
 
     def forward(self, X):
-        X = tf.nn.batch_normalization(X,
-                                      mean = self.running_mean,
-                                      variance = self.running_var,
-                                      offset = self.beta,
-                                      scale = self.gamma,
-                                      variance_epsilon = 1e-3)
-        return X
+        return tf.nn.batch_normalization(X,
+                                        mean = self.running_mean,
+                                        variance = self.running_var,
+                                        offset = self.beta,
+                                        scale = self.gamma,
+                                        variance_epsilon = 1e-3)
 
     # This is for sanity check later
     def copy_keras_layers(self, layer):
@@ -89,7 +90,7 @@ class ConvBlock:
         # conv -> bn / f = 3, padding = 'SAME' --> output_shape = ( mi, mi, mo )
         self.conv_2 = ConvLayer(f = 3, mi = fm_sizes[0], mo = fm_sizes[1], stride = 1, padding = 'SAME')
         self.bn_2 = BNLayer(fm_sizes[1])
-        # conv -> bn / f = 3 --> output_shape = ( (mi - f)/2 + 1, (mi - f)/2 + 1, mo )
+        # conv -> bn / f = 1 --> output_shape = ( (mi - f)/2 + 1, (mi - f)/2 + 1, mo )
         self.conv_3 = ConvLayer(f = 1, mi = fm_sizes[1], mo = fm_sizes[2], stride = 1)
         self.bn_3 = BNLayer(fm_sizes[2])
 
@@ -106,9 +107,9 @@ class ConvBlock:
         self.input = tf.placeholder(tf.float32, shape = (1, 224, 224, mi))
         self.output = self.forward(self.input)
 
-    def feed_forward(self, X):
+    def forward(self, X):
         # Main brance
-        X_1 = self.conv1.forward(X)
+        X_1 = self.conv_1.forward(X)
         X_1 = self.bn_1.forward(X_1)
         X_1 = self.activate(X_1)
 

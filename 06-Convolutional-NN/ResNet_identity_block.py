@@ -34,7 +34,7 @@ class IdentityBlock:
         self.input = tf.placeholder(tf.float32, shape = (1, 224, 224, mi))
         self.output = self.forward(self.input)
 
-    def feed_forward(self, X):
+    def forward(self, X):
         # Main Branch
         X_1 = self.conv_1.forward(X)
         X_1 = self.bn_1.forward(X_1)
